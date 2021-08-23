@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
 
 /**
   * GET API value.
-  * /github/dusk196/github-total-commit?style=for-the-badge&color=green
+  * /github/{dusk196}/{github-total-commit}?style={for-the-badge}&color={green}
  **/
 router.get('/github/:user/:repo', function (req, res, next) {
 
@@ -25,19 +25,21 @@ router.get('/github/:user/:repo', function (req, res, next) {
       info = 'unable_to_fetch_details';
     })
     .then(function () {
+
       var fetchSvg = 'https://img.shields.io/badge/total_commits-' + info + '-' + req.query.color + '?style=' + req.query.style + '&logo=github';
       var finalResponse;
+
       axios.get(fetchSvg)
         .then(function (response) {
           finalResponse = response.data;
         })
         .catch(function (error) {
           console.error(error);
-          finalResponse = 'unable to fetch details';
         })
         .then(function () {
-          return res.status(200).send(finalResponse);
+          return res.header('Content-Type', 'image/svg+xml;charset=utf-8').send(finalResponse);
         });
+
     });
 
 });
