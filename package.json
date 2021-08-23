@@ -1,0 +1,37 @@
+{
+  "name": "github-total-commit",
+  "version": "1.0.0",
+  "description": "A simple badge for GitHub Repositories that shows total number of commits since it's inception!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "watch": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dusk196/github-total-commit.git"
+  },
+  "keywords": [
+    "github",
+    "badge"
+  ],
+  "author": "Sayantan Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dusk196/github-total-commit/issues"
+  },
+  "homepage": "https://github.com/dusk196/github-total-commit#readme"
+}
