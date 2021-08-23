@@ -15,7 +15,7 @@
             ]
         },
         {
-            "src": "/github",
+            "src": "/github/[user]/[repo]",
             "dest": "/app.js",
             "methods": [
                 "GET"
