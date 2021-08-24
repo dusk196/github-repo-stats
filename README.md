@@ -1,4 +1,4 @@
-# [BADGE] Github Repository Contributions
+# [BADGE] Github Repository Stats
 
 [![Node JS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Express JS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
@@ -9,6 +9,13 @@
 ![Language](https://img.shields.io/github/languages/top/dusk196/github-total-commit?style=for-the-badge)
 ![Size](https://img.shields.io/github/languages/code-size/dusk196/github-total-commit?style=for-the-badge)
 
-![Contributions](https://github-total-commit.vercel.app/github/dusk196/how-many-days?style=for-the-badge&color=green)
-
 ### A simple badge for GitHub Repositories that shows total number of contributions since it's inception!
+
+![Contributions](https://github-total-commit.vercel.app/github/contrib/dusk196/how-many-days?style=for-the-badge&color=a52422)
+![Total Commits](https://github-total-commit.vercel.app/github/commit/dusk196/how-many-days?style=for-the-badge&color=a52422)
+
+### Demo:
+
+Check the last two badges! 🤭
+
+Also you can check: https://github-total-commit.vercel.app/
