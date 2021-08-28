@@ -13,18 +13,14 @@ So I was updating my Github with badges as per the latest trends. 😜 Then I no
 
 ### A simple badge for GitHub Repositories that shows total number of contributions since it's inception!
 
-![Contributions](https://github-stats-badge.vercel.app/github/contrib/dusk196/github-repo-stats?style=for-the-badge&color=7678ed)
-![Total Commits](https://github-stats-badge.vercel.app/github/commit/dusk196/github-repo-stats?style=for-the-badge&color=7678ed)
+Bdw, I was feeling pretty lazy to write all the SVGs myself and there were a ton of them already available so I just used the awesome hackable SVG badges from **Shields IO** (https://shields.io/).
+
+Huge shoutout to the Devs! (https://github.com/badges/shields)
 
 ## Demo:
 
-Check the above two badges! 🤭
-
----
-
-So I was feeling pretty lazy to write all the SVGs myself and there were a ton of them already available so I just used the awesome hackable SVG badges from **Shields IO** (https://shields.io/).
-
-Huge shoutout to the Devs! (https://github.com/badges/shields)
+![Contributions](https://github-stats-badge.vercel.app/github/contrib/dusk196/github-repo-stats?style=for-the-badge&color=7678ed)
+![Total Commits](https://github-stats-badge.vercel.app/github/commit/dusk196/github-repo-stats?style=for-the-badge&color=7678ed)
 
 ## How to use:
 
@@ -41,7 +37,7 @@ You can also use the following HTML code should that be your choice for updaing 
 ### Request Parameters:
 
 Parameter | Description
-- | -
+--- | ---
 **type** | Defines the type of status you want. <br /> `contrib` (for contributions) \| `commit` (for total commits)
 **username** | The Github username of the owner of the repository whose information status you require.  <br /> E.g: `dusk196`
 **repository_name** | The Github repository name whose information status you require. <br /> E.g: `github-repo-stats`
@@ -56,7 +52,7 @@ https://github-stats-badge.vercel.app/github/contrib/dusk196/github-repo-stats
 Since, it is based on **Shields IO** (https://shields.io/), it supports some of it's query parameters as follows:
 
 Parameter | Description
-- | -
+--- | ---
 **style** | Defines the style of badge you want. <br /> `plastic` \| `flat` \| `flat-square` \| `for-the-badge` \| `social`
 **color** | The color of the badge; supports plaintext as well as hexcode <br /> E.g: `red` \| `green` \| `2f52e0` \| `7678ed` etc.
 
