@@ -6,16 +6,32 @@
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](http://perso.crans.org/besson/LICENSE.html)
 [![Open Source? Yes!](https://img.shields.io/badge/Open_Source%3F-Yes!-blue?style=for-the-badge&logo=gitHub&logoColor=white)](https://opensource.com/resources/what-open-source/)
-![Language](https://img.shields.io/github/languages/top/dusk196/github-total-commit?style=for-the-badge)
-![Size](https://img.shields.io/github/languages/code-size/dusk196/github-total-commit?style=for-the-badge)
+![Language](https://img.shields.io/github/languages/top/dusk196/github-repo-stats?style=for-the-badge)
+![Size](https://img.shields.io/github/languages/code-size/dusk196/github-repo-stats?style=for-the-badge)
+
+So I was updating my Github with badges as per the latest trends. 😜 Then I noticed that there were no such badges to show the total number of contributions and total number of commit. I mean, sure there were a lot stats related badges like weekly commits or so but not this. So...
 
 ### A simple badge for GitHub Repositories that shows total number of contributions since it's inception!
 
-![Contributions](https://github-total-commit.vercel.app/github/contrib/dusk196/how-many-days?style=for-the-badge&color=a52422)
-![Total Commits](https://github-total-commit.vercel.app/github/commit/dusk196/how-many-days?style=for-the-badge&color=a52422)
+![Contributions](https://github-stats-badge.vercel.app/github/contrib/dusk196/github-repo-stats?style=for-the-badge&color=3ddc97)
+![Total Commits](https://github-stats-badge.vercel.app/github/commit/dusk196/github-repo-stats?style=for-the-badge&color=3ddc97)
 
-### Demo:
+## Demo:
 
-Check the last two badges! 🤭
+Check the above two badges! 🤭
 
-Also you can check: https://github-total-commit.vercel.app/
+Also you can check: https://github-stats-badge.vercel.app/
+
+---
+
+So I was feeling pretty lazy to write all the SVGs myself and there were a ton of them already available so I just used the awesome hackable SVG badges from **Shields IO** (https://shields.io/).
+
+Huge shoutout to the Devs! (https://github.com/badges/shields)
+
+## How to use:
+
+Well, it's pretty straight forward. You can use the following code in your Github Markdown file:
+
+
+You can also use the following HTML code should that be your choice for updaing the Github Markdown file.
+
